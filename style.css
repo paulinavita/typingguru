@@ -1,0 +1,156 @@
+
+body, #eightiesBackground {
+    background-image: url(img/80sbackground.jpg);
+    background-size: 1200px 1200px;
+    background-position-x: -100px;
+}
+
+body {
+    font-family: 'Schoolbell';
+    margin: 90px;
+}
+
+p {
+    padding: 0px;    
+}
+
+.main-box {
+    padding: 19px;
+    font-family: 'Schoolbell';
+    /* border: 1px solid red; */
+    background-color: #1DA88D;
+    border: 5px black solid;
+}
+
+h1 {
+    color: #ecf0f1;
+}
+
+h2 {
+    color: #ecf0f1;
+    font-size: 25px;
+    margin-top: -30px;
+
+
+}
+
+.right-entry {
+    /* border: 1px solid red; */
+    float: right;
+    width: 77% ;
+    border: 5px black solid;
+    background-color: purple;
+
+}
+
+.left-highscore-box {
+    float: left;
+    /* border: 1px solid red; */
+    width: 20%;
+    font-size: 15px;
+    border: 5px black solid;
+    margin-left: -10px;
+    background-color: #fbd22a;
+}
+
+.highest-score-name, .highest-score-points {
+    font-size: 25px;
+    margin-left: 18px;
+
+}
+
+.score-box {
+    float: left;
+    font-size: 35px;
+    color: #ecf0f1;
+
+}
+.timer-box {
+    display: block;
+    display: inline-block;
+    margin-left: 330px;
+    font-size: 35px;
+    color: #ecf0f1;
+
+
+}
+.name-box {
+    float: right;
+    font-size: 35px;
+    color: #ecf0f1;
+
+}
+
+.words-show-box {
+    font-size: 90px;
+    margin: -70px;
+    
+
+}
+/* .type-box {
+    margin: 0px;
+    border: black solid 2px;
+	background-color: lightpink;
+	width: 40%;
+    min-height: 30px;
+	max-height: 40px;
+	padding-top: 10px;
+	margin-left: auto;
+    margin-right: auto; 
+}
+*/
+.type-box-text {
+    margin: 5px;
+    width: 50%;
+    height: 90px;
+    font-family: 'Schoolbell';
+    font-size: 55px;
+    background: white;
+    margin-top: -30px;
+    margin-bottom: 30px;
+
+    /* border: 1px solid red; */
+}
+
+.button-container {
+    padding-left: 390px;
+}
+
+button {
+    border: none;
+    background-color: #fbd22a;
+    box-shadow: 0px 5px 0px 0px#e5be1e;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Schoolbell';
+
+}
+
+button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+
+.words span{
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: #ECF0F1;
+}
+
+
+
+
+
+/* ('https://fonts.googleapis.com/css?family=Schoolbell');s */
+
+
