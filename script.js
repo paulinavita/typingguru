@@ -76,7 +76,7 @@ function decrementTime() {
     timestamp.innerHTML = seconds;
     if (seconds === 0) {
       seconds--;
-      alert("Thank you for playing! Your points : " + points + 'You can check if you are on the toplist');
+      alert("Thank you for playing! Your points : " + points + 'Play more to get even better!');
       window.location = 'index.html' // 
       clearInterval(timer);
       // scoreDiv.innerHTML = 0
